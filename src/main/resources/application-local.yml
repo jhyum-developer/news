@@ -1,0 +1,10 @@
+server:
+  port: 8001
+
+spring:
+  elasticsearch:
+    uris: http://192.168.0.9:9210
+    username: elastic
+    password: xeno0201
+    connection-timeout: 1s
+    socket-timeout: 3s

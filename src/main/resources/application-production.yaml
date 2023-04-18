@@ -1,0 +1,13 @@
+server:
+  port: 8001
+
+spring:
+  elasticsearch:
+    uris: http://192.168.0.9:9210
+    username: elastic
+    password: xeno0201
+    connection-timeout: 1s
+    socket-timeout: 3s
+
+## http://ec2-54-180-145-0.ap-northeast-2.compute.amazonaws.com:9200
+## http://172.31.23.76:9200

@@ -1,0 +1,16 @@
+server:
+  servlet:
+    session:
+      timeout: 30m
+  error:
+    whitelabel:
+      enabled: true
+  tomcat:
+    uri-encoding: UTF-8
+    max-http-header-size: 48000
+
+alvin:
+  host: 'http://alvin.avan.io'
+  crawler:
+    news:
+      timeout: 5000
